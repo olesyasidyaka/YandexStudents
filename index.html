@@ -1,0 +1,54 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Студенты ШРИ</title>
+</head>
+<body>
+ 	<form>
+ 		<table>
+ 			<tr>
+ 				<td></td>
+ 				<td>Имена</td>
+ 				<td>Приоритеты</td>
+ 				<td>Результат</td>
+ 			</tr>
+			<tr>
+				<td class="main_column">
+					<label>Студенты</label>
+				</td>
+				<td>
+					<div id='students_out'></div>
+				</td>
+				<td>
+					<div id='students_priority_out'></div>
+				</td>
+				<td>
+					<div id='students_result_out'></div>
+				</td>
+			</tr>
+			<tr>
+				<td class="main_column">
+					<label>Преподаватели</label>
+				</td>
+				<td>
+					<div id='teachers_out'></div>
+				</td>
+				<td>
+					<div id='teachers_priority_out'></div>
+				</td>
+				<td>
+					<div id='teachers_result_out'></div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input id="agree" value="Распределить студентов" type="button" onclick="solve();">
+				</td>
+			</tr>
+		</table>									
+ 	</form>
+	<script src="students.js"></script>
+</body>
+</html>

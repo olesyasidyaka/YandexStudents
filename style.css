@@ -1,0 +1,20 @@
+tr, td {
+	padding: 5px;
+	margin: 0;
+	min-width: 140px;
+	line-height: 18px;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+.main_column {
+	width: 120px;
+	vertical-align: top;
+}
+
+.value_column {
+	width: 100px;
+}
